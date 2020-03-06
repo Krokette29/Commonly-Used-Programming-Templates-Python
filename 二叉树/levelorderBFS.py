@@ -6,8 +6,7 @@ def BFS_solution1(root: Node):
 
 	res = [[]]
 	layer = 0
-	queue = deque()
-	queue.append(root)
+	queue = deque([root])
 	while len(queue) != 0:
 		for _ in range(len(queue)):
 			pop = queue.popleft()
@@ -26,9 +25,7 @@ def BFS_solution2(root: Node):
 
 	res = []
 	layer = 0
-	queue = deque()
-	queue.append(root)
-	queue.append(None)
+	queue = deque([root, None])
 	tmp = []
 	while len(queue) != 0:
 		pop = queue.popleft()
