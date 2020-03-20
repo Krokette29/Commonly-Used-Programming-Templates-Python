@@ -1,1 +1,11 @@
-# Commonly-Used-Programming-Templates
+# Commonly-Used-Programming-Templates-Python
+# Python3常用代码模板（更新中）
+
+- 二叉树
+  - DFS搜索（先序遍历、中序遍历、后序遍历，包含递归和迭代）
+  - BFS搜索（层次遍历）
+- 排序
+  - 快速排序（随机pivot）
+- 数据结构
+  - 最小堆（基于heapq，加入删除操作）
+  - 最大堆（heapq中有隐含的最大堆各种操作，其中heappush需要用heapq._siftdown_max自写，额外加入删除操作）
