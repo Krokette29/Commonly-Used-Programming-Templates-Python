@@ -1,4 +1,4 @@
-def UFS(object):
+class UFS(object):
 	def __init__(self, length):
 		self.p = [i for i in range(length)]
 		self.rank = [0 for _ in range(length)]
