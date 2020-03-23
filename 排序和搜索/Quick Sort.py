@@ -14,15 +14,3 @@ def quickSort(arr, left, right):
 
 	quickSort(arr, left, i - 1)
 	quickSort(arr, i + 1, right)
-
-
-def main():
-	arr = [random.randint(0, 10) for _ in range(10)]
-	print("Before sorting: \t", arr)
-	quickSort(arr, 0, len(arr) - 1)
-	print("After sorting: \t\t", arr)
-	print("Result: \t\t\t", sorted(arr))
-
-
-if __name__ == "__main__":
-	main()
